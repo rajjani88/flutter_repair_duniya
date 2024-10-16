@@ -3,6 +3,7 @@ import 'package:flutter_repair_duniya/commons/category_card.dart';
 import 'package:flutter_repair_duniya/commons/expert_card.dart';
 import 'package:flutter_repair_duniya/commons/my_appbar.dart';
 import 'package:flutter_repair_duniya/commons/my_image_slider.dart';
+import 'package:flutter_repair_duniya/contoller/pg_duniya_contoller.dart';
 import 'package:flutter_repair_duniya/screens/stays_duniya/stays_duniya_screen.dart';
 import 'package:flutter_repair_duniya/utils/app_colors.dart';
 import 'package:flutter_repair_duniya/utils/app_images.dart';
@@ -16,6 +17,8 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
+  PgDuniyaContoller pgDuniyaContoller = Get.put(PgDuniyaContoller());
+
   @override
   Widget build(BuildContext context) {
     return SafeArea(

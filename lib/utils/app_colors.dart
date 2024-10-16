@@ -8,3 +8,5 @@ const Color colorCardBgLight = Color(0xffFCFCFC);
 const Color colorCard1 = Color(0xffFFFBEB);
 const Color colorCard2 = Color(0xffEEFAFB);
 const Color colorCard3 = Color(0xffFFF5F6);
+
+const Color colorChipBorder = Color(0xffCCCCCC);

@@ -146,12 +146,15 @@ class _StayDuniyaScreenState extends State<StayDuniyaScreen> {
                 const SizedBox(
                   height: 20,
                 ),
-                Container(
-                  height: 180,
-                  decoration: BoxDecoration(
-                      image: DecorationImage(
-                          image: Image.asset(getImage('list_property')).image,
-                          fit: BoxFit.fill)),
+                InkWell(
+                  onTap: () => Get.to(() => PgSuniyaFormScreen()),
+                  child: Container(
+                    height: 180,
+                    decoration: BoxDecoration(
+                        image: DecorationImage(
+                            image: Image.asset(getImage('list_property')).image,
+                            fit: BoxFit.fill)),
+                  ),
                 ),
                 const SizedBox(
                   height: 20,
